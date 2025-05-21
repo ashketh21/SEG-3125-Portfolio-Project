@@ -12,7 +12,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Google Fonts -->
-   <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kavivanar&family=Quintessential&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -35,13 +39,17 @@
   </section>
 
 <!--Experience with UI design-->
-<!-- About Me -->
   <section id="about" class="py-5">
     <div class="container">
       <h2>Experience with UI design</h2>
       <p>I don't really have much concrete experience as an UI designer, however I like to think I have an eye for design. Aside from casual dives into HTML/CSS and school projects involving designing things, this portfolio is my first real exposure. I am developing this portfolio as a part of my curriculum for the <a href="https://catalogue.uottawa.ca/en/courses/seg/" > SEG 3125 Analysis and Design of UI</a> . I am currently learning HTML, CSS, and Javascript along with Bootstrap to develop this portfolio site further whilst incroporating more design elements as I go further with this course.</p>
     </div>
   </section>
+
+<!--Projects (Future Case-Studies)-->
+<div class="container text-center my-5">
+  <h2 class = "project-header display-3">Projects</h2>
+</div>
 
 
 <div id="caseStudyCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -113,13 +121,20 @@
     }
     h1 {
     font-family: 'Quintessential', serif;
-  }
-    h1, h2, h3, h4, h5, h6 {
+    color: #FF6F61; 
+    }
+    h2, h3, h4, h5, h6 {
       color: #FF6F61; 
+      font-family: 'Playfair Display', serif;
     }
     p {
     color: #333333; 
-   }
+    font-family: 'Kavivanar', cursive;
+    }
+
+    #caseStudyCarousel {
+    background-color: rgba(255, 111, 97, 0.1);
+    }
 
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
@@ -129,10 +144,10 @@
     }
     .carousel-inner .carousel-item h2 {
     color: #FF6F61; 
-  }
-  .carousel-inner .carousel-item p {
+    }
+    .carousel-inner .carousel-item p {
     color: #333333;
-  }
+    }
   </style>
 
 </body>
